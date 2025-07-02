@@ -2,13 +2,10 @@
 
 A practical project to detect phishing websites using a custom dataset and multiple machine learning models.  
 
----
-
 ## 🎯 Objective
 
 Identify phishing websites by extracting rich URL and page-content features and training several ML models. Evaluate and compare their performance to determine the most effective approach.  
 
----
 
 ## 📁 Repository Structure
 
@@ -28,16 +25,13 @@ Identify phishing websites by extracting rich URL and page-content features and 
 ├── requirements.txt
 └── .gitignore
 ```
----
 
 ## 🧪Data Collection
-- Phishing URLs: 5,000 samples from [PhishTank].  
+- Phishing URLs: 5,000 samples from [PhishTank](https://phishtank.org/).  
 
 - Legitimate URLs: 5,000 samples from UNB’s 2016 dataset.  
 
 - Merged and processed into url_data.csv containing 16 distinct URL and webpage-based features  
-
---- 
 
 ## 🔧 Feature Extraction
 Features are grouped as:  
@@ -47,7 +41,7 @@ Features are grouped as:
 
 - HTML/JS-based (e.g., presence of <iframe>, suspicious JS patterns)
 
-Explore the extraction pipeline and details in [URL Feature Extraction.ipynb](./"URL Feature Extraction.ipynb") and URLFeatureExtraction.py
+Explore the extraction pipeline and details in [URL Feature Extraction.ipynb](https://github.com/Siva-Sakthii/phishing-detection-machine-learning/blob/master/URL%20Feature%20Extraction.ipynb).
 
 ---
 
@@ -61,7 +55,7 @@ Algorithms Trained:
 - XGBoost
 - Support Vector Machine (SVM)
 
-All model training and evaluation steps are documented in [Phishing Website Detection_Models & Training.ipynb](./"Phishing Website Detection_Models & Training.ipynb")
+All model training and evaluation steps are documented in [Phishing Website Detection_Models & Training.ipynb](https://github.com/Siva-Sakthii/phishing-detection-machine-learning/blob/master/Phishing%20Website%20Detection_Models%20%26%20Training.ipynb)
 
 ---
 
@@ -103,11 +97,9 @@ Visit http://127.0.0.1:5000/ in your browser to test URL predictions.
 
 ⚙️ Explore live-data crawling and real-time detection pipelines.  
 
---- 
 
 ## 📄 References & Resources
 PhishTank, UNB datasets, and UCI Phishing Website repository   
---- 
 
 ## ❤️ Acknowledgements
 Thanks to:
