@@ -1,0 +1,25 @@
+# Ignore virtual environments
+.venv/
+venv/
+
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ignore pickle files
+*.pkl
+
+# Ignore Jupyter Notebook checkpoints (if using notebooks)
+.ipynb_checkpoints/
+
+# Ignore VS Code settings (optional)
+.vscode/
+
+# Ignore environment/config files (optional)
+.env
+.env.*
+
+# Ignore OS files
+.DS_Store
+Thumbs.db

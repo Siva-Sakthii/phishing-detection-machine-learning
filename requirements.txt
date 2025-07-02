@@ -1,0 +1,8 @@
+Flask
+requests
+bs4
+whois
+xgboost
+scikit-learn
+numpy
+gunicorn
