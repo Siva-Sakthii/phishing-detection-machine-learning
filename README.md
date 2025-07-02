@@ -27,7 +27,7 @@ Identify phishing websites by extracting rich URL and page-content features and 
 ├── templates/index.html           # Web UI for prediction
 ├── requirements.txt
 └── .gitignore
-
+```
 ---
 
 ## 🧪Data Collection
