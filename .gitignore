@@ -7,6 +7,8 @@ __pycache__/
 *.py[cod]
 *.pyo
 
+DataFiles/
+
 # Ignore pickle files
 *.pkl
 
@@ -23,3 +25,10 @@ __pycache__/
 # Ignore OS files
 .DS_Store
 Thumbs.db
+
+.early.coverage
+
+
+Phishing_Website_Detection_Models_&_Training.ipynb 
+URL_Feature_Extraction.ipynb 
+
