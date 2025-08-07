@@ -26,8 +26,10 @@ DataFiles/
 .DS_Store
 Thumbs.db
 
-.early.coverage
+.early.coverage/
 
 
 Phishing_Website_Detection_Models_&_Training.ipynb 
 URL_Feature_Extraction.ipynb
+
+.early.coverage/python
